@@ -1,0 +1,314 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    position: fixed;
+    height: 60px;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(170, 170, 170);
+
+    border-bottom-width: 1px;
+    border-bottom-style:solid;
+    border-bottom-color: rgb(0, 0, 0);
+
+    z-index: 100;
+}
+
+
+.left-section{
+    display: flex;
+    align-items: center;
+}
+
+.menu-box{
+    height: 60px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.menu-box:hover{
+    background-color: rgb(155, 155, 155);;
+}
+
+.menu{
+    height: 40px;
+}
+
+.youtube-logo{
+    height: 30px;
+    cursor: pointer;
+}
+
+.middle-section{
+    display: flex;
+    align-items: center;
+    flex:1;
+    max-width: 700px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.search-box{
+    height: 40px;
+    flex:1;
+
+    font-size: 20px;
+    padding-left: 10px;
+
+    background-color: rgb(169, 169, 169);
+
+    border-color: grey;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50px;
+    outline: none;
+    box-shadow: inset 3px 3px 7px rgba(0, 0, 0, 0.2);
+    width: 32px;
+    
+
+}
+.search-box::placeholder{
+    color:black;
+}
+
+
+.search-icon{
+    position: relative;
+
+    height: 42px;
+    width: 42px;
+    margin-left: -43.5px;
+
+    border-color: grey;
+    border-style: none;
+    border-radius: 50px;
+    background-color: rgb(169, 169, 169);
+    cursor: pointer;
+    box-shadow: inset 2px 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.search-icon .tooltip{
+    position: absolute;
+    bottom: -25px;
+    right: -4px;
+    background-color: rgb(169, 169, 169);
+    color: rgb(0, 0, 0);
+    padding: 2px 4px 2px 4px;
+
+    white-space: nowrap;
+
+    border-radius: 10px;
+    border-width: 0.1px;
+    border-color: black;
+    border-style: solid;
+
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+}
+
+.search-icon:hover .tooltip{
+    opacity: 1;
+}
+
+.search-icon-img{
+    height: 25px;
+    padding-top: 3px;
+}
+
+
+.voice-search{
+    position: relative;
+    height: 42px;
+    width: 42px;
+    margin-left: 5px;
+
+    border-color: grey;
+    border-style: none;
+    border-radius: 50px;
+    background-color: rgb(169, 169, 169);
+    cursor: pointer;
+    box-shadow: inset 2px 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.voice-search .tooltip{
+    position: absolute;
+    bottom: -25px;
+    right: -49px;
+    background-color: rgb(169, 169, 169);
+    color: rgb(0, 0, 0);
+    padding: 2px 4px 2px 4px;
+    white-space: nowrap;
+
+    
+
+    border-radius: 10px;
+    border-width: 0.1px;
+    border-color: black;
+    border-style: solid;
+
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+}
+.voice-search:hover .tooltip{
+    opacity: 1;
+}
+
+
+.voice-search-img{
+    height: 25px;
+    margin-top: 3px;
+}
+
+
+
+.right-section{
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+}
+
+.create-box,
+.yt-app-box,
+.notification-box,
+.my-profile-picture-box
+{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+
+}
+.create-img{
+    height: 35px;
+    cursor: pointer;
+}
+
+.create-box{
+    position: relative;
+}
+.create-box .tooltip{
+    position: absolute;
+    bottom: -21px;
+    right: 2px;
+    background-color: rgb(169, 169, 169);
+    color: rgb(0, 0, 0);
+    padding: 0px 4px 0px 4px;
+
+    border-radius: 10px;
+    border-width: 0.1px;
+    border-color: black;
+    border-style: solid;
+
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+}
+.create-box:hover .tooltip{
+    opacity: 1;
+}
+
+.yt-app-box{
+    position: relative;
+}
+
+.yt-app-box .tooltip{
+    position: absolute;
+    bottom: -21px;
+    right: -26px;
+    background-color: rgb(169, 169, 169);
+    color: rgb(0, 0, 0);
+    padding: 0px 4px 0px 4px;
+    white-space: nowrap;
+
+    border-radius: 10px;
+    border-width: 0.1px;
+    border-color: black;
+    border-style: solid;
+
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+}
+
+.yt-app-box:hover .tooltip{
+    opacity: 1;
+}
+
+.yt-app-img{
+    height: 35px;
+    cursor: pointer;
+}
+
+.notification-box{
+    position: relative;
+}
+
+.notification-box .tooltip{
+    position: absolute;
+    bottom: -21px;
+    right: -25px;
+    background-color: rgb(169, 169, 169);
+    color: rgb(0, 0, 0);
+    padding: 0px 4px 0px 4px;
+    white-space: nowrap;
+    
+    border-radius: 10px;
+    border-width: 0.1px;
+    border-color: black;
+    border-style: solid;
+
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+}
+.notification-box:hover .tooltip{
+    opacity: 1;
+}
+
+.notification-count{
+    position: absolute;
+    background-color: rgb(255, 55, 55);
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 50px;
+    padding: 2px 2px 2px 2px;
+    top: 3px;
+    right: 6px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(170, 170, 170);;
+
+    box-shadow: inset 4px 4px 9px rgba(32, 32, 32, 0.5);
+
+}
+
+.notification-img{
+    height: 35px;
+    cursor: pointer;
+    
+}
+
+
+
+.my-profile-picture-img{
+    height: 35px;
+    margin-right: 20px;
+
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+
+

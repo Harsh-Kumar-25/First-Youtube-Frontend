@@ -1,0 +1,117 @@
+.main-grid{
+    display: grid;
+    gap: 40px 20px;
+    padding: 15px;
+    overflow: hidden;
+    /* grid-template-rows: repeat(auto-fit, minmax(350px, 1fr)); */
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+
+        border: 1px solid black;
+}
+
+/* @media (max-width: 950px) {
+    .main-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width:951px) and (max-width:2500px)
+{
+    .main-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 2501px) {
+    .main-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+} */
+
+
+.video-box{
+    width: 1fr;
+}
+
+.video-thumnail-box{
+    margin-bottom: 10px;
+    position: relative;
+    cursor: pointer; 
+    transition: transform 0.5s ease;
+}
+
+.video-thumnail-box:hover{
+    transform: scale(1.03);
+}
+
+.video-thumnail-box:active{
+    transform:scale(.95);
+}
+
+.thumnail{
+    border-radius: 20px;
+    width: 100%;
+    box-shadow: 0px 0px 40px rgba(0,0,0,9);
+
+}
+
+
+.video-thumnail-duration{
+    position: absolute;
+    background-color: black;
+    color: white;
+    padding: 3px 4px 4px 4px;
+    right: 0;
+    bottom: 0;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.discription-box{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}   
+
+
+.profile-picture{
+    width: 100%;
+    border-radius: 50px;
+    box-shadow: 0px 0px 50px rgb(0, 0, 0,9);
+}
+
+.video-info-box{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    margin-left: 10px;
+}
+
+.about{
+    width: 100%;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+
+    display: -webkit-box;
+    line-clamp: 2;
+    -webkit-line-clamp: 2; /* maximum 2 lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.channel{
+    margin-top: 20px;
+    font-size: 16px;
+
+}
+
+.channel-link{
+    color: black;
+    text-decoration: none;
+}
+
+.stats{
+    font-size: 16px;
+    margin-top: 6px;
+}
