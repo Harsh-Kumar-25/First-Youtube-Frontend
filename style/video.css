@@ -1,12 +1,9 @@
-.main-grid{
+.main-grid {
     display: grid;
     gap: 40px 20px;
     padding: 15px;
     overflow: hidden;
-    /* grid-template-rows: repeat(auto-fit, minmax(350px, 1fr)); */
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-
-        border: 1px solid black;
 }
 
 /* @media (max-width: 950px) {
@@ -29,34 +26,34 @@
 } */
 
 
-.video-box{
-    width: 1fr;
+.video-box {
+    width: 100%;
 }
 
-.video-thumnail-box{
+.video-thumbnail-box {
     margin-bottom: 10px;
     position: relative;
-    cursor: pointer; 
+    cursor: pointer;
     transition: transform 0.5s ease;
 }
 
-.video-thumnail-box:hover{
+.video-thumbnail-box:hover {
     transform: scale(1.03);
 }
 
-.video-thumnail-box:active{
-    transform:scale(.95);
+.video-thumbnail-box:active {
+    transform: scale(.95);
 }
 
-.thumnail{
+.thumbnail {
     border-radius: 20px;
     width: 100%;
-    box-shadow: 0px 0px 40px rgba(0,0,0,9);
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 1);
 
 }
 
 
-.video-thumnail-duration{
+.video-thumbnail-duration {
     position: absolute;
     background-color: black;
     color: white;
@@ -68,25 +65,25 @@
     border-radius: 10px;
 }
 
-.discription-box{
+.description-box {
     display: grid;
     grid-template-columns: 50px 1fr;
-}   
-
-
-.profile-picture{
-    width: 100%;
-    border-radius: 50px;
-    box-shadow: 0px 0px 50px rgb(0, 0, 0,9);
 }
 
-.video-info-box{
+
+.profile-picture {
+    width: 100%;
+    border-radius: 50px;
+    box-shadow: 0px 0px 50px rgb(0, 0, 0, 1);
+}
+
+.video-info-box {
     display: grid;
     grid-template-rows: auto auto auto;
     margin-left: 10px;
 }
 
-.about{
+.about {
     width: 100%;
     font-weight: 700;
     font-size: 20px;
@@ -94,24 +91,25 @@
 
     display: -webkit-box;
     line-clamp: 2;
-    -webkit-line-clamp: 2; /* maximum 2 lines */
+    -webkit-line-clamp: 2;
+    /* maximum 2 lines */
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
 }
 
-.channel{
+.channel {
     margin-top: 20px;
     font-size: 16px;
 
 }
 
-.channel-link{
+.channel-link {
     color: black;
     text-decoration: none;
 }
 
-.stats{
+.stats {
     font-size: 16px;
     margin-top: 6px;
 }

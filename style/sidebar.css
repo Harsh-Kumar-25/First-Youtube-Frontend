@@ -1,16 +1,16 @@
-.sidebar{
+.sidebar {
     position: fixed;
     top: 60px;
     bottom: 0;
     left: 0;
     width: 100px;
     padding-top: 2px;
-    
+
     background-color: rgb(170, 170, 170);
     z-index: 200;
 }
 
-.sidebar-link{
+.sidebar-link {
     height: 80px;
     margin-bottom: 10px;
     cursor: pointer;
@@ -22,17 +22,17 @@
     border-radius: 30px;
 }
 
-.sidebar-link div{
+.sidebar-link div {
     font-size: 12px;
     font-weight: 500;
 
 }
 
-.sidebar-link:hover{
+.sidebar-link:hover {
     background-color: rgb(155, 155, 155);
 }
 
-.img{
+.img {
     height: 40px;
     margin-bottom: 4px;
 }

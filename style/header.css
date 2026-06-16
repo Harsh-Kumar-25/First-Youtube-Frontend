@@ -1,4 +1,4 @@
-.header{
+.header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -11,19 +11,19 @@
     background-color: rgb(170, 170, 170);
 
     border-bottom-width: 1px;
-    border-bottom-style:solid;
+    border-bottom-style: solid;
     border-bottom-color: rgb(0, 0, 0);
 
     z-index: 100;
 }
 
 
-.left-section{
+.left-section {
     display: flex;
     align-items: center;
 }
 
-.menu-box{
+.menu-box {
     height: 60px;
     width: 100px;
     display: flex;
@@ -33,31 +33,32 @@
     border-radius: 30px;
 }
 
-.menu-box:hover{
-    background-color: rgb(155, 155, 155);;
+.menu-box:hover {
+    background-color: rgb(155, 155, 155);
+    ;
 }
 
-.menu{
+.menu {
     height: 40px;
 }
 
-.youtube-logo{
+.youtube-logo {
     height: 30px;
     cursor: pointer;
 }
 
-.middle-section{
+.middle-section {
     display: flex;
     align-items: center;
-    flex:1;
+    flex: 1;
     max-width: 700px;
     margin-left: 40px;
     margin-right: 40px;
 }
 
-.search-box{
+.search-box {
     height: 40px;
-    flex:1;
+    flex: 1;
 
     font-size: 20px;
     padding-left: 10px;
@@ -71,15 +72,16 @@
     outline: none;
     box-shadow: inset 3px 3px 7px rgba(0, 0, 0, 0.2);
     width: 32px;
-    
+
 
 }
-.search-box::placeholder{
-    color:black;
+
+.search-box::placeholder {
+    color: black;
 }
 
 
-.search-icon{
+.search-icon {
     position: relative;
 
     height: 42px;
@@ -94,7 +96,7 @@
     box-shadow: inset 2px 2px 6px rgba(0, 0, 0, 0.15);
 }
 
-.search-icon .tooltip{
+.search-icon .tooltip {
     position: absolute;
     bottom: -25px;
     right: -4px;
@@ -114,17 +116,17 @@
     pointer-events: none;
 }
 
-.search-icon:hover .tooltip{
+.search-icon:hover .tooltip {
     opacity: 1;
 }
 
-.search-icon-img{
+.search-icon-img {
     height: 25px;
     padding-top: 3px;
 }
 
 
-.voice-search{
+.voice-search {
     position: relative;
     height: 42px;
     width: 42px;
@@ -138,7 +140,7 @@
     box-shadow: inset 2px 2px 6px rgba(0, 0, 0, 0.15);
 }
 
-.voice-search .tooltip{
+.voice-search .tooltip {
     position: absolute;
     bottom: -25px;
     right: -49px;
@@ -147,7 +149,7 @@
     padding: 2px 4px 2px 4px;
     white-space: nowrap;
 
-    
+
 
     border-radius: 10px;
     border-width: 0.1px;
@@ -158,19 +160,20 @@
     transition: opacity 0.15s;
     pointer-events: none;
 }
-.voice-search:hover .tooltip{
+
+.voice-search:hover .tooltip {
     opacity: 1;
 }
 
 
-.voice-search-img{
+.voice-search-img {
     height: 25px;
     margin-top: 3px;
 }
 
 
 
-.right-section{
+.right-section {
     width: 250px;
     display: flex;
     align-items: center;
@@ -181,23 +184,24 @@
 .create-box,
 .yt-app-box,
 .notification-box,
-.my-profile-picture-box
-{
+.my-profile-picture-box {
     width: 50px;
     height: 50px;
     display: flex;
     align-items: center;
 
 }
-.create-img{
+
+.create-img {
     height: 35px;
     cursor: pointer;
 }
 
-.create-box{
+.create-box {
     position: relative;
 }
-.create-box .tooltip{
+
+.create-box .tooltip {
     position: absolute;
     bottom: -21px;
     right: 2px;
@@ -214,15 +218,16 @@
     transition: opacity 0.15s;
     pointer-events: none;
 }
-.create-box:hover .tooltip{
+
+.create-box:hover .tooltip {
     opacity: 1;
 }
 
-.yt-app-box{
+.yt-app-box {
     position: relative;
 }
 
-.yt-app-box .tooltip{
+.yt-app-box .tooltip {
     position: absolute;
     bottom: -21px;
     right: -26px;
@@ -241,20 +246,20 @@
     pointer-events: none;
 }
 
-.yt-app-box:hover .tooltip{
+.yt-app-box:hover .tooltip {
     opacity: 1;
 }
 
-.yt-app-img{
+.yt-app-img {
     height: 35px;
     cursor: pointer;
 }
 
-.notification-box{
+.notification-box {
     position: relative;
 }
 
-.notification-box .tooltip{
+.notification-box .tooltip {
     position: absolute;
     bottom: -21px;
     right: -25px;
@@ -262,7 +267,7 @@
     color: rgb(0, 0, 0);
     padding: 0px 4px 0px 4px;
     white-space: nowrap;
-    
+
     border-radius: 10px;
     border-width: 0.1px;
     border-color: black;
@@ -272,11 +277,12 @@
     transition: opacity 0.15s;
     pointer-events: none;
 }
-.notification-box:hover .tooltip{
+
+.notification-box:hover .tooltip {
     opacity: 1;
 }
 
-.notification-count{
+.notification-count {
     position: absolute;
     background-color: rgb(255, 55, 55);
     color: rgb(0, 0, 0);
@@ -288,27 +294,25 @@
     right: 6px;
     border-width: 2px;
     border-style: solid;
-    border-color: rgb(170, 170, 170);;
+    border-color: rgb(170, 170, 170);
+    ;
 
     box-shadow: inset 4px 4px 9px rgba(32, 32, 32, 0.5);
 
 }
 
-.notification-img{
+.notification-img {
     height: 35px;
     cursor: pointer;
-    
+
 }
 
 
 
-.my-profile-picture-img{
+.my-profile-picture-img {
     height: 35px;
     margin-right: 20px;
 
     border-radius: 50px;
     cursor: pointer;
 }
-
-
-
