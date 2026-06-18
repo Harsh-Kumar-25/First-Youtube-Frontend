@@ -1,17 +1,33 @@
-# v1.0 - Desktop YouTube Frontend Clone
+# v1.1 - YouTube Frontend Clone
 
 ## Project Status
 
-🚧 Mobile and tablet responsiveness is currently under development and will be added in future updates.
+✅ Responsive sidebar and video grid layouts implemented.
 
-Planned improvements include:
+🚧 Header responsiveness is currently under development and will be added in a future update.
 
-* Responsive layouts for mobile and tablet devices
-* YouTube Shorts integration
+### Completed Features
+
+* ✅ Responsive sidebar layout for tablet and desktop devices
+* ✅ Responsive video grid layout
+* ✅ YouTube-inspired desktop interface
+* ✅ Fixed header and sidebar
+* ✅ Hover effects and UI interactions
+* ✅ Mobile sidebar hiding behavior
+
+### Planned Improvements
+
+#### Mobile Sidebar
+
+* 🚧 Sidebar is currently hidden on mobile devices
+* 🚧 A fully responsive mobile sidebar with toggle functionality will be implemented using JavaScript in a future update
+
+#### Future Features
+
+* Responsive header layout
+* YouTube Shorts section
 * Interactive features using JavaScript
 * Enhanced user experience and UI refinements
-
-Stay tuned for future updates!
 
 ## Screenshots
 
@@ -19,20 +35,22 @@ Stay tuned for future updates!
 
 <img src="Demo/ScreenShot.png" width="600px">
 
-## Demo Video
-
-[Watch Demo](Demo/demo%20video.mp4)
-
 ## Technologies Used
 
-- HTML5
-- CSS3
-- Flexbox
-- CSS Grid
+* HTML5
+* CSS3
+* Flexbox
+* CSS Grid
+* CSS Media Queries
+* CSS Transitions
+* CSS Transforms
 
 ## Features
 
-- Sidebar navigation
-- Search bar UI
-- Video grid
-- Hover effects
+* Sidebar Navigation
+* Search Bar UI
+* Responsive Video Grid
+* Responsive Sidebar
+* Fixed Header
+* Hover Effects
+* Tablet & Desktop Responsive Layout
