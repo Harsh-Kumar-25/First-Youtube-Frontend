@@ -17,7 +17,6 @@
     z-index: 100;
 }
 
-
 .left-section {
     display: flex;
     align-items: center;
@@ -35,7 +34,6 @@
 
 .menu-box:hover {
     background-color: rgb(155, 155, 155);
-    ;
 }
 
 .menu {
