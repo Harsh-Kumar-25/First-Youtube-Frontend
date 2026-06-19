@@ -59,19 +59,17 @@
     .sidebar-each-box {
         flex-direction: row;
         justify-content: flex-start;
-        align-items: flex-start;
+        align-items: center;
         height: 80px;
         padding-left: 30px;
     }
 
     .sidebar-each-box .img {
-        margin-top: 10px;
         margin-bottom: 0;
         margin-right: 20px;
     }
 
     .sidebar-each-box div {
         font-size: 15px;
-        margin-top: 22px;
     }
 }
